@@ -14,6 +14,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 // servicios
 import {HeroesServices} from './servicios/heroes.services';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { BuscardorComponent } from './components/buscardor/buscardor.component';
 
 
 // componentes
@@ -25,7 +26,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     NavbarComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    BuscardorComponent
   ],
   imports: [
     BrowserModule,
