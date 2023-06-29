@@ -12,7 +12,7 @@ export class HeroesComponent implements OnInit {
 
   constructor(private _heroesService: HeroesServices, private router: Router) {
   }
-  
+
   ngOnInit(): void {
     this.heroes = this._heroesService.getHeroes();
     console.log(this.heroes)

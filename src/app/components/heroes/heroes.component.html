@@ -1,5 +1,6 @@
 <h1>Heroes <small>Marvel y DC</small></h1>
 <hr>
+<br>
 <div class="container">
   <div class="row row-cols-1 row-cols-md-5 g-4">
     <div class="card" *ngFor="let heroe of heroes; let i = index">
@@ -8,6 +9,7 @@
         <h5 class="card-title">{{heroe.nombre}}</h5>
         <p class="card-text">{{heroe.bio}}</p>
         <p class="card-text"><small class="text-body-secondary">{{heroe.aparicion}}</small></p>
+
         <button (click)="verHeroe(i)" type="button" class="btn btn-outline-primary">Ver más</button>
       </div>
     </div>
